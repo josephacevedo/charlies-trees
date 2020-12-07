@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- https://arbortrim-tree-service.business.site/?utm_source=gmb&utm_medium=referral -->
+    <div class="container">
+        <nav class="navigation cursiveFont">
+
+            <li class="list-item"><a href="#">Call Now</a></li>
+            <li class="list-item"><a href="#">Get a Quote</a></li>
+            <li class="branding"><a href="#">Charlies Trees</a></li>
+            
+            <!-- <li class="list-item"><a href="#about-section">About</a></li>
+            <li class="list-item"><a href="#service-section">Services</a></li>
+            <li class="list-item"><a href="#contact-section">Contact</a></li> -->
+        </nav>
+
+        <div class="header">
+            <h1 class="cursiveFont">
+                Charlies Christmas Trees
+            </h1>
+             <p>Call Today for a Consiltaition</p>
+             <p>we open at ?????</p> 
+<!-- make button pop out new view -->
+             <button  class="quote btn"><a href="#contact-section">Get a Quote</a></button>
+        </div>
+
+        <div class="step" id="about-section">
+            <h1 class="cursiveFont">Who are We?</h1>
+            <p>we are ______ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam, quia dolore? Nulla et
+                excepturi quod adipisci, quidem minima consequatur similique sit id dignissimos quo eos saepe porro modi
+                ea beatae?</p>
+        </div>
+
+        <div id="service-section">
+            <h1 class="cursiveFont">What we offer</h1>
+
+            <div class="card">
+                <h2>Title</h2>
+                <p>description Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quisquam?</p>
+            </div>
+            <div class="card">
+                <h2>Title</h2>
+                <p>description Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quisquam?</p>
+            </div>
+            <div class="card">
+                <h2>Title</h2>
+                <p>description Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quisquam?</p>
+            </div>
+        </div>
+
+        <div class="step" id="contact-section">
+            <form action="">
+                <div class="form-input">
+                    <label>Name</label>
+                    <input type="text">
+                </div>
+
+                <div class="form-input">
+                    <label>Email</label>
+                    <input type="email">
+                </div> 
+
+                <div class="form-input">
+                    <label>Phone Number</label>
+                    <input id="bar" placeholder="(123)456-7890" type="tel" name="telInput"
+                        onkeydown="javascript:backspacerDOWN(this,event);" onkeyup="javascript:backspacerUP(this,event);">
+                    <label for="items">Choose a service:</label>
+                </div>
+
+                <div class="services">
+                    <div class="service-option">
+                    <input type="checkbox" id="service1" name="service" class="service" value="service 1">
+                    <label class="service-label" for="service2"> Service 1</label>
+                    </div>
+
+                    <div  class="service-option">
+                        <input type="checkbox" id="periph2" name="service" class="service"value="service 2">
+                        <label class="service-label" for="service"> Service 2</label>
+                    </div>
+
+                    <div  class="service-option">
+                        <input type="checkbox" id="service3" name="service" class="service" value="service 3">
+                        <label class="service-label" for="service"> Service 3</label>
+                    </div>
+                </div>
+                <button class="btn" type="submit">Send</button>
+
+            </form>
+        </div>
+
+        <footer>
+            Website created with love by Joseph Acevedo
+        </footer>
+
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

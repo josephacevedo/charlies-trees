@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Sansita+Swashed&display=swap');
+/*     font-family: 'Noto Sans', sans-serif;
+
+    font-family: 'Sansita Swashed', cursive; */
+
+
+
+/* *{
+    border: 1px solid black;
+} */
+body{
+    
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.cursiveFont{
+    font-family: 'Sansita Swashed', cursive;
+}
+.container {
+    display: grid;
+}
+
+.navigation {
+    padding: 1.3rem;
+    position: fixed; 
+    background-color: white;
+    box-shadow: 0 0 5px gray;
+    width: 100%;
+
+    
+}
+
+.list-item {
+    list-style: none;
+    display: inline;
+    float: right;
+    margin-right: 2rem;
+    font-size: 1.20rem;
+}
+
+.branding{
+    list-style: none;
+    float: left;
+    font-size: 1.3rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: #489605;
+}
+
+a:hover {
+    color: red;
+}
+
+.header{
+margin:auto;
+margin-top: 5rem;
+text-align: center;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.btn{
+    width: 7rem;
+    height: 4rem;
+    margin: 15px;
+    font-size: 1.1rem;
+}
+.step{
+    background-color: rgba(238, 238, 238, 0.774);
+}
+
+form{
+    /* display: grid; */
+    width: 80%;
+    margin:auto;
+}
+.form-input{
+    line-height: 50px;
+    padding-right: 50px;
+}
+
+
+label{
+    font-size: 25px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    font-size: 1.5rem;
+}
+
+
+
+
+.service{
+    width: 30px;
+    height: 30px;
+    
+} 
+
+.service-label{
+   padding-left: 15px;
+}
+
+.service-option{
+padding: 0;
+}
+
+
+
+
+
